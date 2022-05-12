@@ -15,7 +15,7 @@
 package main
 
 import (
-	"github.com/gohade/hade/framework/gin"
+	"github.com/GiantAxeWhy/dxcorego/framework/gin"
 )
 
 func main() {

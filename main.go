@@ -2,8 +2,8 @@ package main
 
 import (
 	"context"
-	"dxcorego/framework"
-	"dxcorego/framework/middleware"
+	"github.com/GiantAxeWhy/dxcorego/framework/gin"
+	"github.com/GiantAxeWhy/dxcorego/framework/middleware"
 	"log"
 	"net/http"
 	"os"
@@ -13,8 +13,8 @@ import (
 )
 
 func main() {
-	core := framework.NewCore()
-	core.Use(middleware.Recovery())
+	core := gin.New()
+	core.Use(gin.Recovery())
 	core.Use(middleware.Cost())
 	registerRouter(core)
 

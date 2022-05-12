@@ -14,8 +14,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/gohade/hade/framework/gin/internal/bytesconv"
-	"github.com/gohade/hade/framework/gin/render"
+	"github.com/GiantAxeWhy/dxcorego/framework/gin/internal/bytesconv"
+	"github.com/GiantAxeWhy/dxcorego/framework/gin/render"
 )
 
 const defaultMultipartMemory = 32 << 20 // 32 MB

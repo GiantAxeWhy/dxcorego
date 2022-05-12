@@ -2,8 +2,8 @@ package main
 
 import (
 	"context"
-	"dxcorego/framework"
 	"fmt"
+	"github.com/GiantAxeWhy/dxcorego/framework"
 	"log"
 	"time"
 )

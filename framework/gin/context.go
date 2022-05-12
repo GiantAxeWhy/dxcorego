@@ -19,8 +19,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gohade/hade/framework/gin/binding"
-	"github.com/gohade/hade/framework/gin/render"
+	"github.com/GiantAxeWhy/dxcorego/framework/gin/binding"
+	"github.com/GiantAxeWhy/dxcorego/framework/gin/render"
 
 	"github.com/gin-contrib/sse"
 )

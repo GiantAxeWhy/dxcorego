@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gohade/hade/framework/gin/internal/bytesconv"
-	"github.com/gohade/hade/framework/gin/internal/json"
+	"github.com/GiantAxeWhy/dxcorego/framework/gin/internal/bytesconv"
+	"github.com/GiantAxeWhy/dxcorego/framework/gin/internal/json"
 )
 
 var errUnknownType = errors.New("unknown type")

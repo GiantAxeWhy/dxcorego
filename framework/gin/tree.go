@@ -11,7 +11,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/gohade/hade/framework/gin/internal/bytesconv"
+	"github.com/GiantAxeWhy/dxcorego/framework/gin/internal/bytesconv"
 )
 
 var (

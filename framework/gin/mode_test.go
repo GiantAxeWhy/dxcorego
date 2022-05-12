@@ -8,7 +8,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/gohade/hade/framework/gin/binding"
+	"github.com/GiantAxeWhy/dxcorego/framework/gin/binding"
 	"github.com/stretchr/testify/assert"
 )
 
